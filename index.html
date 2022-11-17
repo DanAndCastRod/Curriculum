@@ -22,10 +22,10 @@
         text-align: justify;;
     }
     .my-icon{
-        padding: 1em;
-        
-    
+   
+        padding: 0 1em;
     }
+
     .bg-flat{
         background: #A08794;
     }
@@ -48,12 +48,13 @@
         padding-top: 2em;
     }
     .title-section{
-        font-family: Arial;
+        font-family: 'Segoe UI';
         text-transform: uppercase;
         letter-spacing: 2px;
-        font-weight: 400;
-        padding-bottom: 1px;
+        font-weight: 500;
+        padding-top:1em;
         display: flex;
+        align-content: center;
         
     }
     .sub{
@@ -65,8 +66,27 @@
     .date{
         border-left: 1px solid black;
     }
+    .item-skills{
+        display: flex;
+        padding-top: 1em;
+        align-items: center;;
+    }
+
+    .title-section2{
+        font-family: 'Segoe UI';
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 500;
+        display: flex;
+        align-content: center;
+    }
+
+    .icon-skills{
+        width: 2em;
+        margin-right: 1em;
+    }
 </style>
-<body>
+<body >
 
     
     
@@ -113,11 +133,56 @@
                     <i class="bi bi-twitter my-icon"></i>twitter
                 </a>
             </div>
-            <br>
+            <hr>
+            <div class="container skills">
+                <h3 class="subtitle-name">Habilidades</h3>
+                <div class="item-skills">
+                    <img src="https://i.pinimg.com/originals/b6/0c/44/b60c442e6dd69356b90b9e5bec23cc99.png" class="icon-skills">
+                    <div class="title-section2">
+                        EXCEL
+                    </div>
 
+                </div>
+
+                <div class="item-skills">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="" srcset="" class="icon-skills">
+                    <div class="title-section2">
+                        Python
+                    </div>
+
+                </div>
+                <div class="item-skills">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/630px-New_Power_BI_Logo.svg.png" alt="" srcset="" class="icon-skills">
+                    <div class="title-section2">
+                        PowerBI
+                    </div>
+
+                </div>
+                <div class="item-skills">
+                    <img src="https://www.eyecay.ky/wp-content/uploads/2021/06/social_default_image.png" alt="" srcset="" class="icon-skills">
+                    <div class="title-section2">
+                        PowerAPPS
+                    </div>
+
+                </div>
+                <div class="item-skills">
+
+                    <div class="title-section2">
+                        HTML, CSS, JavaScript
+                    </div>
+
+                </div>
+
+
+                
+            </div>
+            <br>
+            
 
         </div>
+        
         <div class="Center col-sm-8">
+            <br>
             <div class="container exp section">
                 <h3 class="subtitle-name ">
                     Experiencia Laboral
@@ -135,7 +200,7 @@
                 </div>
                 <div class="item-experiencia">
                     <div class="row">
-                        <div class="title-section col-sm-8">Asistenete de proyectos</div>
+                        <div class="title-section col-sm-8">Asistente de proyectos</div>
                         <div class="date col-sm-3"> ENE-2018 - OCT-2019</div>
                     </div>
                     <div class="sub">Zeta Ingeniería y Servicios S.A.S, Pereira</div>
@@ -162,9 +227,38 @@
                 <div class="item-practica">
                     <div class="row">
                         <div class="title-section col-sm-8">Practicante de Ingenieria</div>
+                        <div class="date col-sm-3">OCT-2019 - MAR-2020</div>
                     </div>
+                    <div class="sub">Universidad Tecnológica de Pereira</div>
+                    <p></p>
                 </div>
             </div>
+
+
+            <div class="container education  section">
+                <h3 class="subtitle-name">
+                    Educación
+                </h3>
+                <div class="item-education">
+                    <div class="row">
+                        <div class="title-section col-sm-8">Titulo de ingeniería industrial</div>
+                        <div class="date col-sm-3">2020</div>
+                    </div>
+                    <div class="sub">Universidad Tecnológica de Pereira, Pereira</div>
+                    <p></p>
+                </div>
+                <div class="item-education">
+                    <div class="row">
+                        <div class="title-section col-sm-8">Titulo Educación Secundaria</div>
+                        <div class="date col-sm-3">2013</div>
+                    </div>
+                    <div class="sub">Institución Educativa Augusto Zuluaga Patiño, Pereira</div>
+                    <p></p>
+                </div>
+
+            </div>
+
+
         </div>
     </div>
 </body>
