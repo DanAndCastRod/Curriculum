@@ -9,6 +9,9 @@ body{
     margin: 2% auto;
 
 }
+@media print {
+    .page, .page-break { break-after: page; }
+}
 .link{
     text-decoration: none;
 }
